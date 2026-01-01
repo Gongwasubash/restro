@@ -81,7 +81,7 @@ const SetupWarning = () => {
         <ol className="space-y-4 mb-8 text-stone-700 text-sm list-decimal pl-4">
           <li>Ensure your Spreadsheet has sheets named: <strong>Products, Categories, Customers, Admins, Orders</strong>.</li>
           <li>In Apps Script editor, <strong>Run</strong> the <code className="bg-stone-100 px-1 rounded text-blue-700">getTableData</code> function once to trigger the <strong>Authorization Popup</strong>. Grant all permissions.</li>
-          <li>Click <strong>Deploy > New Deployment</strong>, choose <strong>Web App</strong>, and ensure <i>"Who has access"</i> is set to <strong>"Anyone"</strong>.</li>
+          <li>Click <strong>Deploy &gt; New Deployment</strong>, choose <strong>Web App</strong>, and ensure <i>"Who has access"</i> is set to <strong>"Anyone"</strong>.</li>
           <li>Copy the <strong>Deployment ID</strong> from the result and paste it into <code className="bg-stone-100 px-1 rounded">services/api.ts</code>.</li>
         </ol>
         <div className="flex flex-col space-y-3">
